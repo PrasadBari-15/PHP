@@ -1,0 +1,85 @@
+PHP
+*Written in : <?.....Code......?>
+
+*Single line comment : //......Statement
+
+*Multi line Comment : /*......Statement.....*/
+
+*To print Syntax : echo "...printing Statement...";
+
+Variable: $variable_name = value;
+        Eg. 1) $variable1 = 15;
+              echo $variable1;
+              O/p: 15
+
+	    2) $variable2 = 20;
+		echo "Value of Variable2 is:",$variable2;
+		O/p:Value of Variable2 is:20
+
+*New line : echo "<br>";
+* Extra-space : echo "&nbsp";
+
+*PHP is a dynamically type means no any data types matters
+*PHP is not a case sensitive
+
+Operators:
+1. Arithmetic Operator : +,-,*,/
+eg. echo $variable1+$variabble2;
+    echo $variable1-$variabble2;
+    echo $variable1*$variabble2;
+    echo $variable1/$variabble2;
+
+2. Assignment Operator: =,+=,-=,*=,/=
+eg.  $newvar=$variable1;
+     $newvar +=1;
+     $newvar -=1;
+     $newvar *=2;
+     $newvar /=3;
+
+3. Comparision Operator: ==,!=,<=;>=
+eg. var_dump(1==4); -->bool(false)
+  //var_dump use to determine the value and type of variable
+
+4. Increment-Decrement Operator: ++,--
+eg.    echo $variable1++;
+       echo $variable1--;
+       echo ++$variable1;
+       echo --$variable1;
+
+5. Logical Operator: and(&&), or(||), not(!), xor
+eg. $var=(true && false);
+    $var=(true || false);
+    $var=(!false);
+
+*Data-types
+       1. Integer
+       2. Float
+       3. Array
+       4. String
+       5. object
+       6. boolen
+       7. Null
+       8. Resource
+
+*Constant:
+Syntax:- define('const. name',value);
+   eg. define('pi',3.14);
+
+*Conditional Statement
+if-else
+
+*Loops
+while
+do-while
+for
+
+*Function
+1.pre-define
+2.user-define
+function decleration syntax:- function function_name(){...code...}
+function call Syntax:- function_name();
+
+*String
+$string="This is string";
+-Length of string == strlen(string_name);
+-dot(.) is use to concatenate string
